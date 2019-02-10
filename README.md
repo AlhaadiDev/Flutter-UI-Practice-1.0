@@ -16,19 +16,13 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 1. Main Page
-  <img src="gitimages\MainPage.PNG"/>
+  <img src="gitimages\MainPage.PNG" width="150"/>
 <br>
 
 2. Login Page
-
-<p align="center">
-  <img src="gitimages\LoginPage.PNG"/>
-</p>
+  <img src="gitimages\LoginPage.PNG" width="150"/>
 <br>
 
 3. Home Page
-
-<p align="center">
-  <img src="gitimages\HomePage.PNG"/>
-</p>
+  <img src="gitimages\HomePage.PNG" width="150"/>
 <br>
