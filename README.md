@@ -18,20 +18,20 @@ samples, guidance on mobile development, and a full API reference.
 1. Main Page
 
 <p align="center">
-  <img src="/gitimages/MainPage.png" width="150"/>
+  <img src="gitimages\MainPage.png" width="150"/>
 </p>
 <br>
 
 2. Login Page
 
 <p align="center">
-  <img src="/gitimages/LoginPage.png" width="150"/>
+  <img src="gitimages\LoginPage.png" width="150"/>
 </p>
 <br>
 
 3. Home Page
 
 <p align="center">
-  <img src="/gitimages/HomePage.png" width="150"/>
+  <img src="gitimages\HomePage.png" width="150"/>
 </p>
 <br>
