@@ -15,6 +15,10 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
 
+<br>
+<p>
+This project is tutorial to beginner for flutter, will creating the creative UI using flutter</p>
+
 1. Main Page
   <img src="gitimages\MainPage.PNG" width="150"/>
 <br>
