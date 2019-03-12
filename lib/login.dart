@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'stacked_icon.dart';
 import 'home.dart';
+import 'menu.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -53,12 +54,13 @@ class LoginPage extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         left: 20.0, right: 10.0, top: 10.0),
                     child: GestureDetector(
-                      onTap: (){
-                        Navigator.push(context, MaterialPageRoute(
-                          builder: (context) => HomePage()
-                        ));
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => HomePage()));
                       },
-                                          child: new Container(
+                      child: new Container(
                         height: 70.0,
                         alignment: Alignment.center,
                         decoration: new BoxDecoration(
@@ -66,8 +68,8 @@ class LoginPage extends StatelessWidget {
                             borderRadius: new BorderRadius.circular(10.0)),
                         child: new Text(
                           "Login",
-                          style:
-                              new TextStyle(fontSize: 20.0, color: Colors.white),
+                          style: new TextStyle(
+                              fontSize: 20.0, color: Colors.white),
                         ),
                       ),
                     ),
@@ -89,6 +91,29 @@ class LoginPage extends StatelessWidget {
                   ),
                 )
               ],
+            ),
+            Expanded(
+              child: Padding(
+                padding:
+                    const EdgeInsets.only(left: 20.0, right: 10.0, top: 0.0),
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => MenuPage()));
+                  },
+                  child: new Container(
+                    height: 70.0,
+                    alignment: Alignment.center,
+                    child: new Text(
+                      "Menu Page",
+                      style: new TextStyle(
+                          fontSize: 17.0,
+                          color: Colors.green,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
+              ),
             ),
             Expanded(
               child: Column(

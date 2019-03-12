@@ -20,10 +20,9 @@ class _HomePageState extends State<HomePage> {
         type: BottomNavigationBarType.fixed,
         fixedColor: Colors.blue,
         currentIndex: _bottomNavIndex,
-        onTap: (int index){
+        onTap: (int index) {
           setState(() {
-           _bottomNavIndex = index;
-
+            _bottomNavIndex = index;
           });
         },
         items: [
