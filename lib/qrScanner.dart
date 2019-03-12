@@ -3,7 +3,6 @@ import 'package:myapp/QRScanner/QRScanner.dart';
 import 'QRScanner/generateScan.dart';
 import 'package:flutter/rendering.dart';
 
-
 class QRScannerPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -23,12 +22,12 @@ class QRScannerPage extends StatelessWidget {
                 color: Colors.blue,
                 textColor: Colors.white,
                 splashColor: Colors.blueGrey,
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => QRScanner()),
-                      );
-                    },
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => QRScanner()),
+                  );
+                },
                 child: const Text('SCAN QR CODE')),
           ),
           Padding(
@@ -37,12 +36,12 @@ class QRScannerPage extends StatelessWidget {
                 color: Colors.blue,
                 textColor: Colors.white,
                 splashColor: Colors.blueGrey,
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => GenerateScreen()),
-                      );
-                    },
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => GenerateScreen()),
+                  );
+                },
                 child: const Text('GENERATE QR CODE')),
           ),
         ],
